@@ -1,7 +1,7 @@
 # Better-Performance-CSharp
 ### Link to course: https://www.mdfarragher.com/training/introduction-to-csharp-performance/
 
-Code snippets tested performance of .Net features using [Benchmark.dotnet.core](https://github.com/dotnet/BenchmarkDotNet)
+Code snippets testing performance of .Net features using [Benchmark.dotnet.core](https://github.com/dotnet/BenchmarkDotNet)
 ###### Fundamentals of the .NET Framework
 - The Stack and the Heap
 - Value Types
