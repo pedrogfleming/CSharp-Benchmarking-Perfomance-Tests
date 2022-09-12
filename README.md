@@ -1,8 +1,33 @@
 # Better-Performance-CSharp
-###### Link to course: https://www.mdfarragher.com/training/introduction-to-csharp-performance/
-- Boxing and unboxing performance issues
-- String vs StringBuilder performance
-- ArrayList vs List<T> vs one dimensional arrays performance
-- One dimensional array vs two dimensional array vs jagged array
-- Thowing exceptions performance
+### Link to course: https://www.mdfarragher.com/training/introduction-to-csharp-performance/
 
+###### Fundamentals of the .NET Framework
+- The Stack and the Heap
+- Value Types
+- Reference Types
+- Boxing and unboxing
+- Immutable Strings
+
+###### Basic Optimizations: the low-hanging fruit
+- How to prevent boxing and unboxing
+- Fast string concatenation
+- Fast collections
+- Fast arrays
+- Throwing and catching exceptions
+- For versus Foreach
+
+###### Intermediate Optimizations
+
+- Fast Garbage Collection 
+- Fast delegates
+- Fast class factories
+
+###### A crash course in Intermediate Language
+- Introduction to CIL sintax and instructions
+- Local variable locations
+- The evaluation stack
+
+###### Advanced Optimizations
+- Arrays on the stack
+- Pointers
+- Modifying String Constants
