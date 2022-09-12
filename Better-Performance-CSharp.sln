@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Draft", "Better-Performan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingBenchmark", "TestingBenchmark\TestingBenchmark.csproj", "{B14A9A1B-7E9A-449A-8341-331DC0F75E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing-Unboxing", "Boxing-Unboxing-Test\Boxing-Unboxing.csproj", "{ABE159A9-70B0-456B-8B3B-7221B20E0246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxing-Unboxing", "Boxing-Unboxing-Test\Boxing-Unboxing.csproj", "{ABE159A9-70B0-456B-8B3B-7221B20E0246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Vs_StringBuilder", "String_Vs_StringBuilder\String_Vs_StringBuilder.csproj", "{BF12C5BC-9711-4298-8F6F-06C9E301339A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_Vs_StringBuilder", "String_Vs_StringBuilder\String_Vs_StringBuilder.csproj", "{BF12C5BC-9711-4298-8F6F-06C9E301339A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList_vs_List_vs_Array", "ArrayList_vs_List_vs_Array\ArrayList_vs_List_vs_Array.csproj", "{FA8CCEBB-C1CE-4559-AAB0-A64A1E21C95B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList_vs_List_vs_Array", "ArrayList_vs_List_vs_Array\ArrayList_vs_List_vs_Array.csproj", "{FA8CCEBB-C1CE-4559-AAB0-A64A1E21C95B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions_Performance", "Exceptions_Performance\Exceptions_Performance.csproj", "{D5685A79-FF01-4CFD-BD47-20C5B51833FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions_Performance", "Exceptions_Performance\Exceptions_Performance.csproj", "{D5685A79-FF01-4CFD-BD47-20C5B51833FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDArray_vs_TwoDArray_vs_JaggedArray", "OneDArray_vs_TwoDArray_vs_JaggedArray\OneDArray_vs_TwoDArray_vs_JaggedArray.csproj", "{C52B57B2-4689-4811-B14B-BBBDF4932762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneDArray_vs_TwoDArray_vs_JaggedArray", "OneDArray_vs_TwoDArray_vs_JaggedArray\OneDArray_vs_TwoDArray_vs_JaggedArray.csproj", "{C52B57B2-4689-4811-B14B-BBBDF4932762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEach_vs_For", "ForEach_vs_For\ForEach_vs_For.csproj", "{77176E1B-A092-4C38-9E8D-4E6BD96BC153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C52B57B2-4689-4811-B14B-BBBDF4932762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C52B57B2-4689-4811-B14B-BBBDF4932762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C52B57B2-4689-4811-B14B-BBBDF4932762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77176E1B-A092-4C38-9E8D-4E6BD96BC153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77176E1B-A092-4C38-9E8D-4E6BD96BC153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77176E1B-A092-4C38-9E8D-4E6BD96BC153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77176E1B-A092-4C38-9E8D-4E6BD96BC153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
