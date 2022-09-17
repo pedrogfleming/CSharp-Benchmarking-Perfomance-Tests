@@ -25,5 +25,15 @@ namespace OneDArray_vs_TwoDArray_vs_JaggedArray
         {
             _arrayManager.JaggedArray(100);
         }
+        [Benchmark]
+        public void SimpleArray()
+        {
+            _arrayManager.SimpleArray(100);
+        }
+        [Benchmark]
+        public void PointerArray()
+        {
+            _arrayManager.PointerArray(100);
+        }
     }
 }
